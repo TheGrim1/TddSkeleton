@@ -15,6 +15,7 @@ public class ExampleTest {
     @Test
     public void WillFailIncorrect() {
         assertThat(new Example().answer(), not(24));
+
     }
 
 }
